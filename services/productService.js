@@ -26,7 +26,7 @@ class ProductsService {
     return new Promise((resolve) => {
       setTimeout(() => {
         resolve(this.products);
-      }, 3000);
+      }, 1000);
     });
   }
   async findOne(id) {
