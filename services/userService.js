@@ -1,6 +1,3 @@
-const boom = require('@hapi/boom');
-const getConnection = require('../libs/postgres');
-
 const pool = require('../libs/postgres.pool')
 
 class UserService {
